@@ -1,6 +1,7 @@
 import Banner from "./components/Banner/Banner";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import WhyChoose from "./components/WhyChoose/WhyChose";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Banner />
+      <WhyChoose /> 
     </div>
   )
 }

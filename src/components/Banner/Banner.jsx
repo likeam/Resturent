@@ -12,7 +12,7 @@ const Banner = () => {
     <>
         <div className='container relative'> 
             <div className='py-8 text-2xl tracking-wider text-center font-smibold text-dark '>
-                <h1 className='mt-6 font-bold '>
+                <h1 c className='py-8 text-2xl font-semibold tracking-wider text-center text-dark'>
                     Taste the Healthy Difference
                 </h1>
                 <div className='space-y-10'>
