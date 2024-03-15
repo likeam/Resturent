@@ -12,7 +12,7 @@ const bgStyle = {
   position: "relative",
 };
 
-const About = () => {
+const About = ({HandlePopup}) => {
   return (
     <>
       <div style={bgStyle} className=" py-14">
@@ -37,7 +37,9 @@ const About = () => {
                 accusamus omnis ullam id aspernatur, quas fuga esse
               </p>
               <div className="flex justify-center pt-10 ">
-                <button className="flex items-center justify-center gap-2 px-5 py-2 text-xl text-white h-[40px] bg-primary  hover:scale-105 duration-300">
+                <button 
+                  onClick={HandlePopup}
+                  className="flex items-center justify-center gap-2 px-5 py-2 text-xl text-white h-[40px] bg-primary  hover:scale-105 duration-300">
                   <FaUser />
                   My Account
                 </button>
