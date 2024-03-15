@@ -18,10 +18,16 @@ const About = ({HandlePopup}) => {
       <div style={bgStyle} className=" py-14">
         <div className=" cotaine min-h-[500px] relative z-10">
           <div>
-            <h1 className="pt-20 text-4xl font-semibold text-center text-white racking-wider ">
+            <h1 
+              data-aos="fade"
+              data-aos-delay="300"
+              className="pt-20 text-4xl font-semibold text-center text-white racking-wider ">
               About US
             </h1>
-            <div className="p-10 m-10 bg-white/80">
+            <div 
+              data-aos="fade"
+              data-aos-delay="300"
+              className="p-10 m-10 bg-white/80">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                 doloribus blanditiis culpa ipsa autem! Quas in ut cumque quo,
