@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <>
         <div className='mt-20 text-white '>
-            <div className='container bg-gradient-to-b from-primary to-primaryDark rounded-t-3xl'>
+            <div 
+                data-aos="fade-down"
+                className='container bg-gradient-to-b from-primary to-primaryDark rounded-t-3xl'>
                 <div>
                     <h1 className='py-10 text-3xl font-bold text-center text-yellow-50'>Contact Us</h1>
                     <div className='flex flex-col justify-between col-span-3 border-b-2 border-white sm:flex-row md:flex-row'>
