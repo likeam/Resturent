@@ -15,8 +15,8 @@ const WhyChoose = () => {
           <div 
             data-aos="fade"
             data-aos-delay="300"
-            className="flex flex-row p-10">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-14 sm:gap-4">
+            className="flex flex-col text-center justify-center md:flex-row p-10">
+            <div>
               <div className="flex flex-col items-center justify-center gap-2 px-2 text-center text-dark">
                 <p className="font-bold text-dark/70 min-w-40">
                   Lorem ipsum dolor sit amet ipsum dolor sit amet
@@ -28,7 +28,7 @@ const WhyChoose = () => {
               </div>
             </div>
             <div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-14 sm:gap-4">
+              <div>
                 <div className="flex flex-col items-center justify-center gap-2 px-2 text-center text-dark">
                   <FaBus className="text-5xl text-primary" />
                   <p className="text-5xl rotate-90 translate-x-5 text-primary">
@@ -40,7 +40,7 @@ const WhyChoose = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-14 sm:gap-4">
+            <div >
               <div className="flex flex-col items-center justify-center gap-2 px-2 text-center text-dark">
                 <p className="font-bold text-dark/70 min-w-40"  >
                   Lorem ipsum dolor sit amet ipsum dolor sit amet
@@ -52,7 +52,7 @@ const WhyChoose = () => {
               </div>
             </div>
             <div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-14 sm:gap-4">
+              <div >
                 <div className="flex flex-col items-center justify-center gap-2 px-2 text-center text-dark">
                   <FaBus className="text-5xl text-primary" />
                   <p className="text-5xl rotate-90 translate-x-5 text-primary">

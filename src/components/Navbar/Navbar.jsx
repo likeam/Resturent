@@ -44,12 +44,12 @@ const Navbar = ({ HandlePopup }) => {
         <div className="container flex justify-between">
           <div className="text-3xl font-bold">Logo</div>
           <div>
-            <ul className="flex items-center gap-10 py-4 sm:py-3">
+            <ul className="  flex items-center  gap-0 sm:gap-6 py-4 sm:py-3">
               {NavLinks.map(({ id, name, link }) => (
-                <li key={id} className="cursor-pointer group">
+                <li key={id} className="hidden md:block cursor-pointer group">
                   <a
                     href={link}
-                    className="inline-block text-xl font-semibold hover:text-primary"
+                    className="hidden sm:inline-block text-xl font-semibold hover:text-primary"
                   >
                     {name}
                   </a>
@@ -85,7 +85,7 @@ const Navbar = ({ HandlePopup }) => {
               <li>
                 <button
                   onClick={HandlePopup}
-                  className="flex items-center justify-center gap-2 px-5 py-2 text-xl text-white h-[40px] bg-secondary hover:scale-105 duration-300"
+                  className="flex items-center justify-center gap-2 md:px-5 px-2 py-2 text-xl text-white h-[40px] bg-secondary hover:scale-105 duration-300"
                 >
                   <FaUser />
                   My Account
