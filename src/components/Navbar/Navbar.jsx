@@ -40,7 +40,7 @@ const DropdwonLinks = [
 const Navbar = ({ HandlePopup }) => {
   return (
     <>
-      <div className="bg-white shadow-sm">
+      <div data-aos="fade" className="bg-white shadow-sm">
         <div className="container flex justify-between">
           <div className="text-3xl font-bold">Logo</div>
           <div>
